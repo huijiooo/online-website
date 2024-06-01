@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
+</head>
+
+<body>
+<!--Mobile foldable navigation bar-->
+    <header class="mobile_box">
+        <div class="header_left">
+        </div>
+        <div class="header_center">
+            <a href="index1.html"><img class="logo1" src="images/logo.png" alt=""></a><!--back to the homepage-->
+            <img class="logo2" src="images/logo2.png" alt="">
+        </div>
+        <div class="header_right">
+            <a class="cart cart2">
+            </a>
+        </div>
+    </header>
+    <!--Navigation -->
+    <header class="pc_box">
+        <div class="logo"><a href="index1.html"><img src="images/logo.png" alt=""></a></div><!--back to the homepage-->
+        <ul class="payment_nav">
+            <a href="payment.html"><!--back to first step-->
+            <li class="number">
+                <span>1</span>
+                <p>INFORMATION</p></a>
+            </li>
+            <li class="solid"><img src="images/pay1.png" alt=""></li>
+            <li class="number">
+                <span class="xz">2</span>
+                <p>SHIPPING</p>
+            </li>
+            <a href="payment3.html"><!--turn to the third step-->
+            <li class="solid"><img src="images/pay1.png" alt=""></li>
+            <li class="number">
+                <span>3</span>
+                <p>PAYMENT</p></a>
+            </li>
+        </ul>
+    </header>   
+
+    <ul class="payment_nav mobile_box">
+        <a href="payment.html"><!--back to the first step-->
+        <li class="number">
+            <span>1</span>
+            <p>INFORMATION</p></a>
+        </li>
+        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <li class="number">
+            <span class="xz">2</span>
+            <p>SHIPPING</p>
+        </li>
+        <a href="payment3.html"><!--turn to the third step-->
+        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <li class="number">
+            <span>3</span>
+            <p>PAYMENT</p></a>
+        </li>
+    </ul>
+
+    <!-- Shipping information-->
+    <section>
+        <div class="payment_box pw">
+            <div class="left information">
+                <h4>SHIPPING INFORMATION</h4>
+                <div class="input"><!--Input field-->
+                    <input type="text" name="" value="Contact">
+                    <a href="">Change</a>
+                </div>
+                <div class="input">
+                    <input type="text" name="" value="Ship to">
+                    <a href="">Change</a>
+                </div>
+                <h4>SHIPPING METHOD</h4>
+                <div class="method">
+                    <input type="checkbox" name=""><!--use the checkbox to let user slect the shipping method-->
+                    <div class="textInput">
+                        <p>Free Express Next Business Day</p>
+                        <em>Estimated to metro areas. Same business day dispatch when placed before 4pm AEST</em>
+                    </div>
+                </div>
+                <div class="method">
+                    <input type="checkbox" name=""><!--use the checkbox to let user slect the shipping method-->
+                    <div class="textInput">
+                        <p>Same Business Day Delivery - Melbourne</p>
+                        <em>Delivered the same business day between 6pm-9pm when placed before 7 am AEST</em>
+                    </div>
+                </div>
+                <a href="" class="return">Return to information</a>
+                <a class="goShop" href="payment3.html">CONTINUE TO PAYMENT</a><!--turn to the next step's page-->
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <div class="img">
+                            <img src="images/cart1.png" alt="">
+                        </div>
+                        <div class="text"><!--the first product information-->
+                            <h4>Royal Festival Briyani Rice</h4>
+                            <p>Qty</p>
+                            <select name=""><!--change the number of the product-->
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                            </select>
+                            <div class="price">AUD$8.50</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><!--second product information-->
+                            <img src="images/cart2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Chilli & Lime Aioli 240g</h4>
+                            <p>Qty</p>
+                            <select name=""><!--change the number of the product-->
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                            </select><!--total price-->
+                            <div class="price">AUD$12.99</div>
+                        </div>
+                    </li>
+                </ul>
+                <p class="title">Total <span>AUD$21.49</span></p>
+            </div>
+        </div>
+    
+    </section>
+</body>
+<!--link to the js file-->
+<script src="script.js"></script>
+<script src="other.js"></script>
+<script src="cart.js"></script>
+</html>

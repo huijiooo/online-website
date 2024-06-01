@@ -1,0 +1,54 @@
+
+header {
+    width: 100vw;
+    padding: 20px 10px;
+    background: url("images/mobile/header_bg.png") center/100% 100% no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header_left {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header .header_left img {
+    width: 30px;
+
+}
+
+header .header_center {
+    width: 200px;
+    text-align: center;
+}
+
+header .header_center .logo1 {
+    width: 160px;
+}
+
+header .header_center .logo2 {
+    width: 180px;
+}
+
+header .header_right {
+    width: 100px;
+
+    /* gap: 20px; */
+}
+
+header .header_right img {
+    width: 40px;
+}
+
+header .header_right a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+

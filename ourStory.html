@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
+</head>
+<body>
+    <!-- pc device Navigation bar-->
+    <header class="pc_box">
+        <div class="logo"><a href="index1.html"><img src="images/logo.png" alt=""></a></div>
+        <ul class="nav_list pw">
+            <li><a href="products.html"><img src="images/icon1.png" alt=""> Products</a></li>
+            <li><a href="payment.html"><img src="images/icon2.png" alt=""> Purchase</a></li>
+            <li><a href="ourStory.html"><img src="images/icon3.png" alt=""> About us</a></li>
+            <li><a href="login.html"><img src="images/iocn4.png" alt=""> Login</a></li>
+            <li><a href="" class="cart cart1"><img src="images/icon_cart.png" alt=""> Shopping Cart</a></li>
+        </ul>
+    </header>  
+
+    <!-- mobile device content-->
+    <header class="mobile_box"><!--mobile device's header-->
+        <div class="header_left">
+            <img src="images/mobile/menu.png" alt=""><!--Compressed navigation bar ICONS-->
+        </div>
+        <div class="header_center">
+            <a href="index1.html"><img class="logo1" src="images/logo.png" alt=""></a><!--logo icon-->
+            <img class="logo2" src="images/logo2.png" alt=""><!--'austrial's best grocery store'-->
+        </div>
+        <div class="header_right">
+            <a class="cart cart2">
+                <img src="images/icon_cart.png" alt=""><!--shopping cart icon-->
+                <p>Shopping Cart</p>
+            </a>
+        </div>
+    </header>
+    <div class="menu_hezi_box mobile_box">
+        <!-- <img class="cha" src="images/mobile/cha.png" alt=""> -->
+        <div class="title">
+            <img class="title1" src="images/mobile/title1.png" alt=""><!--welcome to-->
+            <img class="title2" src="images/mobile/title2.png" alt=""><!--logo icon-->
+            <img class="title3" src="images/mobile/title3.png" alt=""><!--'austrial's best grocery store'-->
+        </div>
+        <!--footer in the navigation bar-->
+        <ul class="prodicts">
+            <li class="products1"><a href="products.html"><img src="images/mobile/products1.png" alt="">
+                    <span>Products</span></a><!--link to the product page-->
+            </li>
+            <li class="products2"><a href="payment.html"><img src="images/mobile/products2.png" alt="">
+                <span>Purchase</span></a><!--link to the payment page-->
+            </li>
+            <li class="products3"><a href="ourStory.html"><img src="images/mobile/products3.png" alt="">
+                <span>Abouts us</span></a><!--link to the ourstory page-->
+            </li>
+        </ul>
+        <div class="login_boxx">
+            <h1>
+                Wanna join us ?
+            </h1><a href="login.html"><!--link to the login page-->
+                <div class="login_btn">
+                    Login
+                </div>
+            </a>
+        </div>
+        <div class="footer_box">
+            <h4>Follow us</h4>
+            <img style="width: 50%;" src="images/foot_icon.png" alt="">
+            <h4>Pay by</h4>
+            <img style="width: 100%;" src="images/foot_icon2.png" alt="">
+        </div>
+    </div>
+
+    <!--shopping cart part-->
+    <div class="shoppingCart" id="cart-list">
+        <h3>Shopping Cart <img src="images/icon_cart.png" alt=""></h3>
+        <ul>
+            <li>
+                <div class="img"><!--first product information-->
+                    <img src="images/cart1.png" alt="">
+                <p>
+                    <img src="images/Group67.png" alt="">
+                    Royal Festival Briyani Rice
+                </p>
+                </div>
+                <div class="text">
+                    <h4>Royal Festival Briyani Rice</h4>
+                    <p>Qty</p>
+                    <select name=""><!--change the number of the product-->
+                     <option value="">1</option>
+                     <option value="">2</option>
+                     <option value="">3</option>
+                     <option value="">4</option>
+                     <option value="">5</option>
+                     <option value="">6</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="img"><!--second product information-->
+                    <img src="images/cart2.png" alt="">
+                    <p>
+                        <img src="images/Group67.png" alt="">
+                        Chilli & Lime Aioli 240g
+                    </p>
+                </div>
+                <div class="text">
+                    <h4>Chilli & Lime Aioli 240g</h4>
+                    <p>Qty</p>
+                    <select name=""><!--change the number of the product-->
+                      <option value="">1</option>
+                      <option value="">2</option>
+                      <option value="">3</option>
+                      <option value="">4</option>
+                      <option value="">5</option>
+                      <option value="">6</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+        <p class="title">Total (before delivery): <span>AUD$21.49</span></p>
+        <a class="goShop" href="payment.html">View bag & checkout</a><!--link to the payment page to buy product-->
+</div>
+
+<!--our story part start-->
+<section>
+    <div class="ourStory_1 pw">
+        <div class="text"><!--fisrt page-->
+            <h3 class="ourStory_title">Our Story</h3><!--title-->
+            <em>Our passion for beautiful food and the way it can bring people together is what we love. </em>
+            <p>
+                <span>We are an independent Australian family owned business and for over 18 years we have been
+                    introducing and delivering specialty foods that customers may find hard to find at their local
+                    retailers. We want our online grocery store to be your one-stop shop for all things gorgeously
+                    gourmet.</span>
+                <span>After many years in the corporate world, it was the best decision to work for ourselves
+                    instead of someone else. To create & build something that we are passionate about instead of
+                    working hard to fulfil someone else's goals is extremely satisfying.</span>
+            </p><!--subtitle-->
+        </div>
+        <div class="img"><img src="images/story1.png" alt=""></div>
+    </div>
+    <img src="images/group.png" class="partition" alt=""><!--Wavy divider-->
+    <div class="ourStory_2 pw">
+        <h3 class="ourStory_title">Specialties Band Products</h3><!--title-->
+        <div class="box">
+            <div class="img"><img src="images/story2.png" alt=""></div>
+            <div class="text">
+                We proudly support Australian boutique and regional producers and are passionate about bringing you
+                the best quality products these manufacturers have to offer. While our philosophy is to source
+                products locally, we also include some special imported products in our range so we can offer the
+                best from the international community. Oh, and we sneak in a few essential kitchenware items aswell.
+            </div><!--subtitle-->
+            <div class="img"><img src="images/story3.png" alt=""></div>
+        </div>
+    </div>
+    <img src="images/group.png" class="partition" alt=""><!--Wavy divider-->
+    <div class="ourStory_3 pw">
+        <h3 class="ourStory_title">Why Choose Us</h3>
+        <div class="img_box"><!--help manage the picture layout-->
+            <img src="images/story4.png" alt="">
+            <img src="images/story5.png" alt="">
+            <img src="images/story6.png" alt="">
+        </div>
+    </div>
+</section>
+<!--footer-->
+<footer>
+    <div class="foot_box pw">
+        <ul class="left">
+            <li>
+                <h4>Know More</h4>
+                <a href="products.html">Products</a>
+                <a href="payment.html">Purchase</a>
+            </li>
+            <li>
+                <h4>About us</h4>
+                <a href="ourStory.html">Contact us</a>
+            </li>
+        </ul>
+        <div class="right">
+            <h4>Follow us</h4>
+            <img src="images/foot_icon.png" alt="">
+            <h4>Pay by</h4>
+            <img src="images/foot_icon2.png" alt="">
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+</body>
+<!--link to the js page-->
+<script src="script.js"></script>
+<script src="other.js"></script>
+<script src="cart.js"></script>
+</html>

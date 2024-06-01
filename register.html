@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
+</head>
+<body>
+    <!--pc device Navigation bar-->
+    <header class="pc_box">
+        <div class="logo"><a href="index1.html"><img src="images/logo.png" alt=""></a></div><!--back to the homepage-->
+        <ul class="nav_list pw">
+            <li><a href="products.html"><img src="images/icon1.png" alt=""> Products</a></li>
+            <li><a href="payment.html"><img src="images/icon2.png" alt=""> Purchase</a></li>
+            <li><a href="ourStory.html"><img src="images/icon3.png" alt=""> About us</a></li>
+            <li><a href="login.html"><img src="images/iocn4.png" alt=""> Login</a></li>
+            <li><a href="" class="cart cart1"><img src="images/icon_cart.png" alt=""> Shopping Cart</a></li>
+        </ul>
+    </header>   
+
+    <!--mobile device content Navigation bar-->
+
+    <header class="mobile_box">
+        <div class="header_left">
+            <img src="images/mobile/menu.png" alt=""><!--Compressed navigation bar-->
+        </div>
+        <div class="header_center">
+            <a href="index1.html"><img class="logo1" src="images/logo.png" alt=""></a><!--back to the homepage-->
+            <img class="logo2" src="images/logo2.png" alt="">
+        </div>
+        <div class="header_right">
+            <a class="cart cart2">
+                <img src="images/icon_cart.png" alt="">
+                <p>Shopping Cart</p>
+            </a>
+        </div>
+    </header>
+    <div class="menu_hezi_box mobile_box">
+        <!-- <img class="cha" src="images/mobile/cha.png" alt=""> -->
+        <div class="title">
+            <img class="title1" src="images/mobile/title1.png" alt="">
+            <img class="title2" src="images/mobile/title2.png" alt="">
+            <img class="title3" src="images/mobile/title3.png" alt="">
+        </div>
+        <ul class="prodicts">
+            <li class="products1"><a href="products.html"><img src="images/mobile/products1.png" alt="">
+                    <span>Products</span></a><!--link to the prodcut page-->
+            </li>
+            <li class="products2"><a href="payment.html"><img src="images/mobile/products2.png" alt="">
+                <span>Purchase</span></a></li><!--link to the payment page-->
+            <li class="products3"><a href="ourStory.html"><img src="images/mobile/products3.png" alt="">
+                <span>Abouts us</span></a></li><!--link to the ourstory page-->
+        </ul>
+        <div class="login_boxx">
+            <h1>
+                Wanna join us ?
+            </h1><a href="login.html"><!--link to the login page-->
+                <div class="login_btn">
+                    Login
+                </div>
+            </a>
+        </div>
+        <!--right part-->
+        <div class="footer_box">
+            <h4>Follow us</h4>
+            <img style="width: 50%;" src="images/foot_icon.png" alt="">
+            <h4>Pay by</h4>
+            <img style="width: 100%;" src="images/foot_icon2.png" alt="">
+        </div>
+    </div>
+
+    <div class="shoppingCart" id="cart-list">
+        <h3>Shopping Cart <img src="images/icon_cart.png" alt=""></h3>
+        <ul>
+            <li>
+                <div class="img"><!--first product information-->
+                    <img src="images/cart1.png" alt="">
+                    <p>
+                        <img src="images/Group67.png" alt="">
+                        Royal Festival Briyani Rice
+                    </p>
+                </div>
+                <div class="text">
+                    <h4>Royal Festival Briyani Rice</h4>
+                    <p>Qty</p>
+                    <select name=""><!--change the number of the product-->
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="img"><!--second product information-->
+                    <img src="images/cart2.png" alt="">
+                    <p>
+                        <img src="images/Group67.png" alt="">
+                        Chilli & Lime Aioli 240g
+                    </p>
+                </div>
+                <div class="text">
+                    <h4>Chilli & Lime Aioli 240g</h4>
+                    <p>Qty</p>
+                    <select name=""><!--change the number of the product-->
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+        <p class="title">Total (before delivery): <span>AUD$21.49</span></p>
+        <a class="goShop" href="payment.html">View bag & checkout</a>
+        <!--go to check out, link to the payment page-->
+    </div>
+    <section>
+        <div class="register_box">
+            <!--Forms to fill out-->
+            <h2>DON'T HAVE AN ACCOUNT</h2>
+            <div class="left">
+                <div class="item"><span>First Name:</span><input type="text" name=""></div>
+                <div class="item"><span>Last Name:</span><input type="text" name=""></div>
+    
+                <div class="item"><span>Date of Birth</span><input type="text" name="" placeholder="Day"></div>
+                <div class="item"><span></span><input type="text" name="" placeholder="Month"></div>
+                <div class="item"><span></span><input type="text" name="" placeholder="Year"></div>
+    
+                <div class="item"><span>Email Address:</span><input type="text" name=""></div>
+                <div class="item"><span>Password:</span><input type="text" name=""></div>
+                <div class="item"><span>Confirm Password</span><input type="text" name=""></div>
+            </div>
+            <div class="right">
+                <div class="item"><span>Telephone:</span><input type="text" name="" value="+61"></div>
+                <div class="item"><span>Select your country</span><input type="text" name="" placeholder="Australia"></div>
+                <div class="item"><span>Address:</span><input type="text" name="" placeholder="Start typing you address"></div>
+                <a href="myInfo.html">Me Info</a>
+                <!--link to the my information page-->
+            </div>
+        </div>
+    
+    </section>
+
+
+</body>
+<!--link to the all js file-->
+<script src="script.js"></script>
+<script src="other.js"></script>
+<script src="cart.js"></script>
+</html>

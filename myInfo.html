@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
+</head>
+<body>
+    <!--Navigation bar on the pc-->
+    <header class="pc_box">
+        <div class="logo"><a href="index1.html"><img src="images/logo.png" alt=""></a></div>
+        <ul class="nav_list pw">
+            <li><a href="products.html"><img src="images/icon1.png" alt=""> Products</a></li>
+            <li><a href="payment.html"><img src="images/icon2.png" alt=""> Purchase</a></li>
+            <li><a href="ourStory.html"><img src="images/icon3.png" alt=""> About us</a></li>
+            <li><a href="login.html"><img src="images/iocn4.png" alt=""> Login</a></li>
+            <li><a href="" class="cart cart1"><img src="images/icon_cart.png" alt=""> Shopping Cart</a></li>
+        </ul>
+    </header>  
+    <!--Mobile content-->
+    <header class="mobile_box"><!--mobile device's header-->
+        <div class="header_left">
+            <img src="images/mobile/menu.png" alt=""><!--Compressed navigation bar ICONS-->
+        </div>
+        <div class="header_center">
+            <a href="index1.html"><img class="logo1" src="images/logo.png" alt=""></a><!--logo icon-->
+            <img class="logo2" src="images/logo2.png" alt=""><!--'austrial's best grocery store'-->
+        </div>
+        <div class="header_right">
+            <a class="cart cart2">
+                <img src="images/icon_cart.png" alt=""><!--shopping cart icon-->
+                <p>Shopping Cart</p>
+            </a>
+        </div>
+    </header>
+    <div class="menu_hezi_box mobile_box">
+        <!-- <img class="cha" src="images/mobile/cha.png" alt=""> -->
+        <div class="title">
+            <img class="title1" src="images/mobile/title1.png" alt=""><!--welcome to-->
+            <img class="title2" src="images/mobile/title2.png" alt=""><!--logo icon-->
+            <img class="title3" src="images/mobile/title3.png" alt=""><!--'austrial's best grocery store'-->
+        </div>
+        <!--footer in the navigation bar-->
+        <ul class="prodicts">
+            <li class="products1"><a href="products.html"><img src="images/mobile/products1.png" alt="">
+                    <span>Products</span></a><!--link to the product page-->
+            </li>
+            <li class="products2"><a href="payment.html"><img src="images/mobile/products2.png" alt="">
+                <span>Purchase</span></a><!--link to the payment page-->
+            </li>
+            <li class="products3"><a href="ourStory.html"><img src="images/mobile/products3.png" alt="">
+                <span>Abouts us</span></a><!--link to the ourstory page-->
+            </li>
+        </ul>
+        <div class="login_boxx">
+            <h1>
+                Wanna join us ?
+            </h1><a href="login.html"><!--link to the login page-->
+                <div class="login_btn">
+                    Login
+                </div>
+            </a>
+        </div>
+        <div class="footer_box">
+            <h4>Follow us</h4>
+            <img style="width: 50%;" src="images/foot_icon.png" alt="">
+            <h4>Pay by</h4>
+            <img style="width: 100%;" src="images/foot_icon2.png" alt="">
+        </div>
+    </div>
+<!--shopping cart part-->
+    <div class="shoppingCart" id="cart-list">
+        <h3>Shopping Cart <img src="images/icon_cart.png" alt=""></h3>
+        <ul>
+            <li>
+                <div class="img"><!--first product information-->
+                    <img src="images/cart1.png" alt="">
+                    <p>
+                        <img src="images/Group67.png" alt="">
+                        Royal Festival Briyani Rice
+                    </p>
+                </div>
+                <div class="text">
+                    <h4>Royal Festival Briyani Rice</h4>
+                    <p>Qty</p>
+                    <select name=""><!--change the number of the product-->
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </div>
+            </li>
+            <li>
+                <div class="img"><!--second product information-->
+                    <img src="images/cart2.png" alt="">
+                    <p>
+                        <img src="images/Group67.png" alt="">
+                        Chilli & Lime Aioli 240g
+                    </p>
+                </div>
+                <div class="text">
+                    <h4>Chilli & Lime Aioli 240g</h4>
+                    <p>Qty</p>
+                    <select name=""><!--change the number of the product-->
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                    </select>
+                </div>
+            </li>
+        </ul>
+        <p class="title">Total (before delivery): <span>AUD$21.49</span></p>
+        <a class="goShop" href="payment.html">View bag & checkout</a><!--link to the payment page-->
+    </div>
+    <!--information part-->
+    <section>
+        <!--Personal card-->
+        <div class="myInfo_box">
+            <div class="left">
+                <img src="images/info_icon.png" alt="">
+                <h3>My Account </h3>
+                <p>Welcome back Celina !</p>
+                <a href="myInfo.html" class="xz"><img src="images/info_icon2.png" alt=""> <span>My Info</span></a>
+                <a href="history.html"><img src="images/info_icon2.png" alt=""> <span>Order History</span></a><!--link to the history page-->
+            </div>
+            <div class="right">
+                <!--detail information-->
+               <h3>My Info</h3>
+                <input type="text" name="" placeholder="Edit your information, login details and preferences.">
+                <p><em>First Name:</em> <span>Logan <a href="">Edit</a></span></p>
+                <p><em>Last Name:</em> <span>Wang</span></p>
+                <p><em>Email:</em> <span>wangliny289@gmail.com</span></p>
+                <p><em>DOB:</em> <span>20/02/2001</span></p>
+                <p><em>Phone Number:</em> <span>+61 44903283</span></p>
+            </div>
+        </div>
+    
+    </section>
+
+</body>
+<!--link to the js file-->
+<script src="script.js"></script>
+<script src="other.js"></script>
+<script src="cart.js"></script>
+</html>

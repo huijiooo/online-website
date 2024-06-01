@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
+</head>
+
+<body>
+<!--mobile device Collapse navigation bar-->
+    <header class="mobile_box">
+        <div class="header_left">
+        </div>
+        <div class="header_center">
+            <a href="index1.html"><img class="logo1" src="images/logo.png" alt=""></a><!--back to the homepage-->
+            <img class="logo2" src="images/logo2.png" alt="">
+        </div>
+        <div class="header_right">
+            <a class="cart cart2">
+            </a>
+        </div>
+    </header>
+
+    <!--Step 1, 2, and 3 progress bars above-->
+    <header class="pc_box">
+        <div class="logo"><a href="index1.html"><img src="images/logo.png" alt=""></a></div><!--back to the homepage-->
+        <ul class="payment_nav">
+            <a href="payment.html"><!--back to the first page-->
+            <li class="number">
+                <span>1</span>
+                <p>INFORMATION</p></a><!--step1-->
+            </li>
+            <a href="payment2.html"><!--back to the second page-->
+            <li class="solid"><img src="images/pay1.png" alt=""></li>
+            <li class="number">
+                <span>2</span>
+                <p>SHIPPING</p></a><!--step2-->
+            </li>
+            <li class="solid"><img src="images/pay1.png" alt=""></li>
+            <li class="number">
+                <span class="xz">3</span>
+                <p>PAYMENT</p><!--step3-->
+            </li>
+        </ul>
+    </header>
+    <!--Step 1, 2, and 3 progress bars above-->
+    
+    <!--mobile device step line -->
+    <ul class="payment_nav mobile_box">
+        <a href="payment.html"><!--back to the first page-->
+        <li class="number">
+            <span>1</span>
+            <p>INFORMATION</p></a><!--step1-->
+        </li>
+        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <a href="payment2.html"><!--back to the second page-->
+        <li class="number">
+            <span>2</span>
+            <p>SHIPPING</p></a><!--step2-->
+        </li>
+        <li class="solid"><img src="images/pay1.png" alt=""></li>
+        <li class="number">
+            <span class="xz">3</span>
+            <p>PAYMENT</p><!--step3-->
+        </li>
+    </ul>
+
+    <section>
+        <!--SHIPPING INFORMATION-->
+        <div class="payment_box pw">
+            <div class="left information">
+                <h4>SHIPPING INFORMATION</h4>
+                <div class="input"><!--Input field-->
+                    <input type="text" name="" value="Contact">
+                    <a href="">Change</a>
+                </div>
+                <div class="input"><!--Input field-->
+                    <input type="text" name="" value="Ship to">
+                    <a href="">Change</a>
+                </div>
+        <!--SHIPPING INFORMATION-->
+    
+                <!--payment method part-->
+                <h4>PAYMENT METHOD</h4>
+                <i>All payment is security and encrypted</i>
+                <div class="payment3">
+                    <div class="top">
+                        <div class="title">
+                            <input type="checkbox" name="">
+                            <span>Credit Card</span>
+                        </div>
+                        <input type="text" name="" value="Card number">
+                        <input type="text" name="" value="Name on card">
+                        <div class="input2">
+                            <input type="text" name="" value="Expiration date (MM / YY)">
+                            <input type="text" name="" value="Security code">
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <input type="checkbox" name="">
+                        <img src="images/pay5.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--payment method part-->
+
+            <!--right - shopping cart part-->
+            <div class="right">
+                <ul>
+                    <li>
+                        <div class="img"><!--first product information-->
+                            <img src="images/cart1.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Royal Festival Briyani Rice</h4>
+                            <p>Qty</p>
+                            <select name=""><!--change the number of the product-->
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                            </select>
+                            <div class="price">AUD$8.50</div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="img"><!--second product information-->
+                            <img src="images/cart2.png" alt="">
+                        </div>
+                        <div class="text">
+                            <h4>Chilli & Lime Aioli 240g</h4>
+                            <p>Qty</p>
+                            <select name=""><!--change the number of the product-->
+                                <option value="">1</option>
+                                <option value="">2</option>
+                                <option value="">3</option>
+                                <option value="">4</option>
+                                <option value="">5</option>
+                                <option value="">6</option>
+                            </select>
+                            <div class="price">AUD$12.99</div>
+                        </div>
+                    </li>
+                </ul>
+                <!--total price-->
+                <p class="title">Total <span>AUD$21.49</span></p>
+                <a class="goShop" href="">PROGRESS</a>
+            </div>
+        </div>
+    <!--right - shopping cart part-->
+    </section>
+</body>
+<!--link to the all js file-->
+<script src="script.js"></script>
+<script src="other.js"></script>
+<script src="cart.js"></script>
+</html>

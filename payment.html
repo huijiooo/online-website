@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+        <!--Make sure the page can accommodate different sizes-->
+    <link rel="stylesheet" href="css/style.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="css/style_mobile.css" media="(max-width: 768px)">
+</head>
+
+<body>
+    <!--Step 1, 2, and 3 progress bars above-->
+  
+      <!-- <header class="pc_box">
+        <div class="logo"><a href="/index1.html"><img src="images/logo.png" alt=""></a></div>
+        <ul class="nav_list pw">
+            <li><a href="products.html"><img src="images/icon1.png" alt=""> Products</a></li>
+            <li><a href="payment.html"><img src="images/icon2.png" alt=""> Purchase</a></li>
+            <li><a href="ourStory.html"><img src="images/icon3.png" alt=""> About us</a></li>
+            <li><a href="login.html"><img src="images/iocn4.png" alt=""> Login</a></li>
+            <li><a href="" class="cart cart1"><img src="mages/icon_cart.png" alt=""> Shopping Cart</a></li>
+        </ul>
+    </header> -->
+
+<!--Mobile foldable navigation bar-->
+    <header class="mobile_box">
+        <div class="header_left">
+        </div>
+        <div class="header_center">
+            <a href="index1.html"><img class="logo1" src="images/logo.png" alt=""></a><!--back to the homepage-->
+            <img class="logo2" src="images/logo2.png" alt="">
+        </div>
+        <div class="header_right">
+            <a class="cart cart2">
+            </a>
+        </div>
+    </header>
+  
+    <!--step bar-->
+    <header class="pc_box">
+        <div class="logo"><a href="index1.html"><img src="images/logo.png" alt=""></a></div>
+        <ul class="payment_nav">
+            <li class="number" >
+                <span class="xz">1</span>
+                <p>INFORMATION</p>
+            </li>
+            <a href="payment2.html"><!--turn to the next step-->
+            <li class="solid"><img src="images/pay1.png" alt=""></li>
+            <li class="number">
+                <span>2</span>
+                <p>SHIPPING</p></a>
+            </li>
+            <a href="payment3.html"><!--turn to the next nxet(third)page-->
+            <li class="solid"><img src="images/pay1.png" alt=""></li>
+            <li class="number">
+                <span>3</span>
+                <p>PAYMENT</p></a>
+            </li>
+        </ul>
+    </header>
+    <!--Step 1, 2, and 3 progress bars above-->
+
+    <ul class="payment_nav mobile_box">
+        <li class="number">
+            <span class="xz">1</span>
+            <p>INFORMATION</p>
+        </li>
+        <a href="payment2.html"><!--turn to the next step-->
+        <li class="solid">
+        <img src="images/pay1.png" alt=""></li>
+        <li class="number">
+            <span>2</span>
+            <p>SHIPPING</p></a>
+        </li>
+        <a href="payment3.html"><!--turn to the next nxet(third)page-->
+        <li class="solid">
+        <img src="images/pay1.png" alt=""></li>
+        <li class="number">
+            <span>3</span>
+            <p>PAYMENT</p></a>
+        </li>
+    </ul>
+
+
+    <!--payment form pay-->
+    <section>
+    <div class="payment_box pw">
+        <div class="left express">
+            <h4>Express checkout</h4>
+            <div class="icon_box">
+                <!--Different payment methods-->
+                <img src="images/pay2.png" alt="">
+                <img src="images/pay3.png" alt="">
+                <img src="images/pay4.png" alt="">
+            </div>
+            <h5>OR</h5>
+            <!--payment form-->
+            <!--Labels are better for helping me with forms than divs-->
+            <label>
+                <span>CONTACT</span>
+                <input type="text" name="" value="Email:">
+            </label>
+            <label>
+                <span>SHIPPING ADDRESS</span>
+                <input type="text" name="" value="Country/region">
+            </label>
+            <div class="input2">
+                <input type="text" name="" value="First name">
+                <input type="text" name="" value="Last name">
+            </div>
+            <input type="text" name="" value="Unit / Street Address">
+            <div class="input3">
+                <input type="text" name="" value="Suburb">
+                <input type="text" name="" value="State / territory">
+                <input type="text" name="" value="Postcode">
+            </div>
+        </div>
+         <!--payment form-->
+
+         <!--shopping cart part-->
+        <div class="right">
+            <ul>
+                <li>
+                    <div class="img">
+                        <img src="images/cart1.png" alt="">
+                    </div>
+                    <div class="text"><!--first product information-->
+                        <h4>Royal Festival Briyani Rice</h4>
+                        <p>Qty</p>
+                        <select name=""><!--change the number of the product-->
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                        </select>
+                        <div class="price">AUD$8.50</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="img"><!--second product information-->
+                        <img src="images/cart2.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h4>Chilli & Lime Aioli 240g</h4>
+                        <p>Qty</p>
+                        <select name=""><!--change the number of the product-->
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                        </select>
+                        <div class="price">AUD$12.99</div>
+                    </div>
+                </li>
+            </ul>
+            <!--right - shopping cart part-->
+
+            <!--turn to the next step-->
+            <p class="title">Total</p>
+            <a class="goShop" href="payment2.html">CONTINUE TO PAYMENT</a>
+            <!--turn to the next step-->
+        </div>
+    </div>
+    </section>
+</body>
+<!--link to the js file-->
+<script src="script.js"></script>
+<script src="other.js"></script>
+<script src="cart.js"></script>
+</html>
